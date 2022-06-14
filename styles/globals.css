@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.sticky-header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 9999;
+}
+.home_header {
+    padding: 60px 0px;
+}
+.mt-4 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
