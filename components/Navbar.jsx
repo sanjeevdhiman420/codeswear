@@ -21,7 +21,7 @@ else if (!ref.current.classList.contains('translate-x-full')){
     <div className="logo mx-5">
     <Link href={"/"}>
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-   <img src="/logo.webp" alt="fyfh" width={200} height={50}/>
+   <Image src="/logo.webp" alt="fyfh" width={200} height={50}/>
    </a>
       </Link>
     </div>
@@ -48,8 +48,8 @@ else if (!ref.current.classList.contains('translate-x-full')){
   <div className='flex items-center justify-center   bg-pink-300'><AiFillPlusCircle className='text-pink-500'/><span className='mx-2'>1</span><AiFillMinusCircle className='text-pink-500'/></div></div></li>
 </ol>
 <div className="flex">
-<button class="flex mx-2 text-white bg-pink-500 border-0 py-2 px-1 focus:outline-none hover:bg-indigo-600 rounded text-sm"><IoBagCheckOutline className='m-1'/>  Checkout</button>
-<button class="flex mx-2 text-white bg-pink-500 border-0 py-2 px-1 focus:outline-none hover:bg-indigo-600 rounded text-sm "><IoBagCheckOutline className='m-1'/>  Clearcart</button>
+<button className="flex mx-2 text-white bg-pink-500 border-0 py-2 px-1 focus:outline-none hover:bg-indigo-600 rounded text-sm"><IoBagCheckOutline className='m-1'/>  Checkout</button>
+<button className="flex mx-2 text-white bg-pink-500 border-0 py-2 px-1 focus:outline-none hover:bg-indigo-600 rounded text-sm "><IoBagCheckOutline className='m-1'/>  Clearcart</button>
 </div>
     </div>
     </div>

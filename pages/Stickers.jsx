@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from 'next/image'
 export default function Stickers() {
   return (
     <section className="text-gray-600 body-font">
@@ -8,7 +9,7 @@ export default function Stickers() {
           <Link href={"/"} className="lg:w-1/4 md:w-1/2 p-4 w-full">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
@@ -29,7 +30,7 @@ export default function Stickers() {
           <Link href={"/"} className="lg:w-1/4 md:w-1/2 p-4 w-full">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
@@ -49,7 +50,7 @@ export default function Stickers() {
           <Link href={"/"}>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
@@ -68,7 +69,7 @@ export default function Stickers() {
           <Link href={"/"}>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
@@ -87,7 +88,7 @@ export default function Stickers() {
           <Link href={"/"}>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
@@ -107,7 +108,7 @@ export default function Stickers() {
           <Link href={"/"}>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
@@ -126,7 +127,7 @@ export default function Stickers() {
           <Link href={"/"}>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
@@ -145,7 +146,7 @@ export default function Stickers() {
           <Link href={"/"}>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
@@ -164,7 +165,7 @@ export default function Stickers() {
           <Link href={"/"}>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
@@ -183,7 +184,7 @@ export default function Stickers() {
           <Link href={"/"}>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
@@ -202,7 +203,7 @@ export default function Stickers() {
           <Link href={"/"}>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
               <a className="block relative  rounded overflow-hidden">
-                <img
+                <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/scoot.jpg"
