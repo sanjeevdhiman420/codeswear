@@ -12,7 +12,7 @@ export default function Hoodies() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/hood1.jpg"
+                  src="/hood1.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -33,7 +33,7 @@ export default function Hoodies() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/hood2.jpg"
+                  src="/hood2.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -53,7 +53,7 @@ export default function Hoodies() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/hood3.jpg"
+                  src="/hood3.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -72,7 +72,7 @@ export default function Hoodies() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/hood3.jpg"
+                  src="/hood3.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -91,7 +91,7 @@ export default function Hoodies() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/hood3.jpg"
+                  src="/hood3.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -110,7 +110,7 @@ export default function Hoodies() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/hood3.jpg"
+                  src="/hood3.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -129,7 +129,7 @@ export default function Hoodies() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/hood3.jpg"
+                  src="/hood3.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -148,7 +148,7 @@ export default function Hoodies() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/hood3.jpg"
+                  src="/hood3.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -167,7 +167,7 @@ export default function Hoodies() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/hood3.jpg"
+                  src="/hood3.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">

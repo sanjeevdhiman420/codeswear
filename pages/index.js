@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
  
-      <div className='home_header'><Image src="/home.jpg" alt="gf" />
+      <div className='home_header'><Image src="/home.jpg" alt="gf"  width={2000} height={700}/>
       <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="flex w-full mb-20 flex-wrap">
@@ -19,24 +19,24 @@ export default function Home() {
     <div className="flex flex-wrap md:-m-2 -m-1">
       <div className="flex flex-wrap w-1/2">
         <div className="md:p-2 p-1 w-1/2">
-          <Image alt="gallery" className="w-full object-cover h-full object-center block" src="/beauty1.webp"/>
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src="/beauty1.webp" width={700} height={500}/>
         </div>
         <div className="md:p-2 p-1 w-1/2">
-          <Image alt="gallery" className="w-full object-cover h-full object-center block" src="/beauty2.webp"/>
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src="/beauty2.webp" width={700} height={500}/>
         </div>
         <div className="md:p-2 p-1 w-full">
-          <Image alt="gallery" className="w-full h-full object-cover object-center block" src="/beauty3.webp"/>
+          <Image alt="gallery" className="w-full h-full object-cover object-center block" src="/beauty3.webp" width={1400} height={1000}/>
         </div>
       </div>
       <div className="flex flex-wrap w-1/2">
         <div className="md:p-2 p-1 w-full">
-          <Image alt="gallery" className="w-full h-full object-cover object-center block" src="/beauty4.webp"/>
+          <Image alt="gallery" className="w-full h-full object-cover object-center block" src="/beauty4.webp" width={1400} height={1000}/>
         </div>
         <div className="md:p-2 p-1 w-1/2">
-          <Image alt="gallery" className="w-full object-cover h-full object-center block" src="/beauty5.webp"/>
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src="/beauty5.webp" width={700} height={500}/>
         </div>
         <div className="md:p-2 p-1 w-1/2">
-          <Image alt="gallery" className="w-full object-cover h-full object-center block" src="/beauty6.webp"/>
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src="/beauty6.webp" width={700} height={500}/>
         </div>
       </div>
     </div>

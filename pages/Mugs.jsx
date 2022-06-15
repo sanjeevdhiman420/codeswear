@@ -12,7 +12,7 @@ export default function mugs() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/mugs1.webp"
+                  src="/mugs1.webp" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -34,7 +34,7 @@ export default function mugs() {
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/mugs2.jpg"
-                />
+ width={700} height={700}                />
               </a>
               <div className="mt-4">
                 <span>T Shirts</span>
@@ -54,7 +54,7 @@ export default function mugs() {
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/mugs3.jpg"
-                />
+ width={700} height={700}                />
               </a>
               <div className="mt-4">
                 <span>T Shirts</span>
@@ -73,7 +73,7 @@ export default function mugs() {
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/mugs3.jpg"
-                />
+ width={700} height={700}                />
               </a>
               <div className="mt-4">
                 <span>T Shirts</span>
@@ -92,7 +92,7 @@ export default function mugs() {
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/mugs3.jpg"
-                />
+ width={700} height={700}                />
               </a>
               <div className="mt-4">
                 <span>T Shirts</span>
@@ -111,7 +111,7 @@ export default function mugs() {
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/mugs3.jpg"
-                />
+ width={700} height={700}                />
               </a>
               <div className="mt-4">
                 <span>T Shirts</span>
@@ -130,7 +130,7 @@ export default function mugs() {
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/mugs3.jpg"
-                />
+ width={700} height={700}                />
               </a>
               <div className="mt-4">
                 <span>T Shirts</span>
@@ -149,7 +149,7 @@ export default function mugs() {
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/mugs3.jpg"
-                />
+ width={700} height={700}                />
               </a>
               <div className="mt-4">
                 <span>T Shirts</span>
@@ -168,7 +168,7 @@ export default function mugs() {
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
                   src="/mugs3.jpg"
-                />
+ width={700} height={700}                />
               </a>
               <div className="mt-4">
                 <span>T Shirts</span>

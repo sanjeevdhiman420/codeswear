@@ -12,7 +12,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -33,7 +33,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -53,7 +53,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -72,7 +72,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -91,7 +91,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -111,7 +111,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -130,7 +130,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -149,7 +149,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -168,7 +168,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -187,7 +187,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
@@ -206,7 +206,7 @@ export default function Stickers() {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-top w-full h-full block"
-                  src="/scoot.jpg"
+                  src="/scoot.jpg" width={700} height={700}
                 />
               </a>
               <div className="mt-4">
