@@ -15,7 +15,7 @@ export default function SignUp() {
                       <Image
                         className="mx-auto w-48"
                         src="/logo.webp"
-                        alt="logo" width={100} height={100}
+                        alt="logo"  width={200} height={100}
                       />
                       <h4 className="text-xl font-semibold mt-1 mb-12 pb-1">
                         SignUp Here

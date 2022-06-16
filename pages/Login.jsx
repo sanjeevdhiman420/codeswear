@@ -15,7 +15,7 @@ export default function Login() {
                       <Image
                         className="mx-auto w-48"
                         src="/logo.webp"
-                        alt="logo"
+                        alt="logo" width={200} height={100}
                       />
                       <h2 className="text-xl font-bold mt-1 mb-12 pb-1">
                         Login Here
