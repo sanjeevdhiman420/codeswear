@@ -6,6 +6,7 @@
     width: 100%;
     background-color: white;
     z-index: 9999;
+    top: 0px;
 }
 .home_header {
     padding: 60px 0px;

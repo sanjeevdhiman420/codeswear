@@ -10,22 +10,34 @@ useEffect(() => {
 try {
   if(localStorage.getItem("cart")){
     setCart(JSON.parse(localStorage.getItem("cart")))
+    // saveCart(JSON.parse(localStorage.getItem("cart")))
+  }
+  else {
+
   }
 } catch (error) {
-  
+  console.error(error);
+  localStorage.clear()
 }
 }, [])
 
 const saveCart = (myCart)=>{
-  localStorage.setItem("cart", myCart)
+  localStorage.setItem("cart", JSON.stringify(myCart))
+  let subt = 0;
+  let keys = Object.keys(myCart)
+for(let i =0; i<keys.length; i++)
+{
+  subt +=myCart[keys[i]].price * myCart[keys[i]].qty;
 }
-const addtoCart = (itemCode, qty, price, name, size, variant)=>{
-  let myCart = cart;
+setSubTotal(subt)
+}
+const addToCart = (itemCode, qty, price, name, size, variant)=>{
+  let newCart = cart;
   if(itemCode in cart){
     newCart[itemCode].qty = cart[itemCode].qty + qty
   }
   else {
-    newCart[itemCode] = {qty:1, price, name, size, variant}
+    newCart[itemCode] = {qty: 1, price, name, size, variant}
   }
   setCart(newCart)
   saveCart(newCart)
@@ -37,18 +49,18 @@ const clearCart = () =>{
   saveCart({})
 }
 const removeFromCart = (itemCode, qty, price, name, size, variant)=>{
-  let myCart = cart;
+  let newCart = cart;
   if(itemCode in cart){
     newCart[itemCode].qty = cart[itemCode].qty -  qty
   }
-  if(newCart[itemCode]["qty"]<0){
+  if(newCart[itemCode]["qty"]<=0){
     delete newCart[itemCode]
   }
   setCart(newCart)
   saveCart(newCart)
   
 }
-  return <><Navbar/><Component {...pageProps} /><Footer/></>
-}
+  return <><Navbar  cart={cart} addToCart={addToCart} clearCart={clearCart} removeFromCart={removeFromCart} subTotal={subTotal}/><Component cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} subTotal={subTotal} clearCart={clearCart}{...pageProps} /><Footer/></>
+} 
 
 export default MyApp

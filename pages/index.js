@@ -10,6 +10,8 @@ export default function Home() {
       </Head>
  
       <div className='home_header'><Image src="/home.jpg" alt="gf"  width={2000} height={700}/>
+  
+
       <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="flex w-full mb-20 flex-wrap">

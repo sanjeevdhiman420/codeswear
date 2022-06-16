@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 import Link from "next/link";
 import Image from "next/image";
-export default function Login() {
+export default function Forgot() {
   return (
     <section className="h-full gradient-form  md:h-screen text-center">
       <div className="container h-full ">
@@ -15,64 +15,37 @@ export default function Login() {
                       <Image
                         className="mx-auto w-48"
                         src="/logo.webp"
-                        alt="logo"
+                        alt="logo" width={100} height={100}
                       />
-                      <h2 className="text-xl font-bold mt-1 mb-12 pb-1">
-                        Login Here
-                      </h2>
+                      <h4 className="text-xl font-semibold mt-1 mb-12 pb-1">
+                        Forgot Password
+                      </h4>
                     </div>
                     <form>
-                      <p className="mb-4">Please login to your account & <Link  href={"/signUp"}><span className="text-green-300 hover:text-green-500">SignUp</span></Link></p>
+                      <p className="mb-4">Please SignUp to your account & <Link  href={"/Login"}><span className="text-green-300 hover:text-green-500">Login</span></Link></p>
                       <div className="mb-4">
                         <input
-                          type="text"
+                          type="email"
                           className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                           id="exampleFormControlInput1"
-                          placeholder="Username"
+                          placeholder="Email address"
                         />
                       </div>
-                      <div className="mb-4">
-                        <input
-                          type="password"
-                          className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                          id="exampleFormControlInput1"
-                          placeholder="Password"
-                        />
-                      </div>
+                      
+                      
                       <div className="text-center pt-1 mb-12 pb-1">
-                      <div className="flex items-center">
-          <input id="remember-me" name="remember-me" type="checkbox" className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"/>
-          <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900"> Remember me </label>
-        </div>
                         <button
                           className="inline-block px-6 py-2.5 bg-pink-300 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-pink-500 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
                           type="button"
                           data-mdb-ripple="true"
                           data-mdb-ripple-color="light"
                         >
-                          Log in
+                          Continue
                         </button>
-                        <Link href={"/Forgot"}><button
-                          className="inline-block px-6 py-2.5 bg-yellow-300 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-500 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
-                          type="button"
-                          data-mdb-ripple="true"
-                          data-mdb-ripple-color="light"
-                        >
-                         Forgot Password
-                        </button></Link>
+                     
                         
                       </div>
-                      <div className="flex items-center justify-between pb-6">
-                        <p className="mb-0 mr-2">Don&apos;t have an account?</p>
-                        <button
-                          type="button"
-                          className="inline-block px-6 py-2 border-2 border-red-600 text-red-600 font-medium text-xs leading-tight uppercase rounded hover:bg-red-500 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                          data-mdb-ripple="true"
-                          data-mdb-ripple-color="light"
-                        >
-                          Need a help ?
-                        </button>
-                      </div>
+       
                     </form>
                   </div>
                 </div>
@@ -95,5 +68,5 @@ export default function Login() {
         </div>
       </div>
     </section>
-  );
+  )
 }
